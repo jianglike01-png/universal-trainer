@@ -233,9 +233,7 @@ function goBack() {
             <div class="pred-val">{{ predictedText }}</div>
             <div class="pred-conf">把握 <b class="num">{{ pct(sample.prediction?.confidence) }}</b></div>
           </div>
-          <div class="kv" style="margin-top: 12px;">
-            <span class="k">理由</span>
-          </div>
+          <div class="tiny muted" style="margin-top: 14px; font-weight: 650; letter-spacing: .02em;">理由</div>
           <p class="small" style="margin: 4px 0 10px; line-height: 1.6; color: var(--ink-2);">{{ sample.prediction?.reasoning }}</p>
           <div class="kv">
             <span class="k">封存时间</span>
